@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71B01AA223AAE80003D3533 /* siren.wav in Resources */ = {isa = PBXBuildFile; fileRef = B71B01A9223AAE80003D3533 /* siren.wav */; };
+		B766165E23FA2A4E00DCAB1E /* r2-d2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B766165D23FA2A4E00DCAB1E /* r2-d2.wav */; };
 		B7B9033D2239F31600A7B390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9033C2239F31600A7B390 /* AppDelegate.swift */; };
 		B7B9033F2239F31600A7B390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9033E2239F31600A7B390 /* ViewController.swift */; };
 		B7B903422239F31600A7B390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B903402239F31600A7B390 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B7B903472239F31700A7B390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B903452239F31700A7B390 /* LaunchScreen.storyboard */; };
 		B7B903522239F31700A7B390 /* In_Class_AlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B903512239F31700A7B390 /* In_Class_AlertsTests.swift */; };
 		B7B9035D2239F31700A7B390 /* In_Class_AlertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9035C2239F31700A7B390 /* In_Class_AlertsUITests.swift */; };
+		B7B9036B223A022000A7B390 /* siren.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7B9036A223A022000A7B390 /* siren.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B71B01A9223AAE80003D3533 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = siren.wav; path = ../../siren.wav; sourceTree = "<group>"; };
+		B766165D23FA2A4E00DCAB1E /* r2-d2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "r2-d2.wav"; sourceTree = "<group>"; };
 		B7B903392239F31600A7B390 /* In Class Alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "In Class Alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B9033C2239F31600A7B390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B9033E2239F31600A7B390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		B7B903582239F31700A7B390 /* In Class AlertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "In Class AlertsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B9035C2239F31700A7B390 /* In_Class_AlertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = In_Class_AlertsUITests.swift; sourceTree = "<group>"; };
 		B7B9035E2239F31700A7B390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B9036A223A022000A7B390 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = siren.wav; path = ../../siren.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				B7B903502239F31700A7B390 /* In Class AlertsTests */,
 				B7B9035B2239F31700A7B390 /* In Class AlertsUITests */,
 				B7B9033A2239F31600A7B390 /* Products */,
+				B7B9036A223A022000A7B390 /* siren.wav */,
+				B766165D23FA2A4E00DCAB1E /* r2-d2.wav */,
+				B71B01A9223AAE80003D3533 /* siren.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,6 +240,9 @@
 			files = (
 				B7B903472239F31700A7B390 /* LaunchScreen.storyboard in Resources */,
 				B7B903442239F31700A7B390 /* Assets.xcassets in Resources */,
+				B766165E23FA2A4E00DCAB1E /* r2-d2.wav in Resources */,
+				B7B9036B223A022000A7B390 /* siren.wav in Resources */,
+				B71B01AA223AAE80003D3533 /* siren.wav in Resources */,
 				B7B903422239F31600A7B390 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
