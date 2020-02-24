@@ -14,13 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var usernameField: UITextField!
     
 
-    
-    
-    
-    
-    
-    
-
     @IBAction func displayAlert(_ sender: Any) {
     
     // Setup the alert
@@ -36,12 +29,7 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    
-    
-    
-    
+   
     
     @IBAction func loginAlert(_ sender: Any) {
     
@@ -52,10 +40,12 @@ class ViewController: UIViewController {
     let answer = ac.textFields![0]
     self.usernameField.text = answer.text
 
+        
     // Design the second alert
     let alert = UIAlertController(title: "Welcome:", message: answer.text, preferredStyle: .alert)
     alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .`default`, handler: { _ in }))
     
+        
     // Display the alert
     self.present(alert,animated: true, completion: nil)}
     ac.addAction(submitAction)
@@ -64,14 +54,34 @@ class ViewController: UIViewController {
 }
   
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @IBAction func playMedia(_ sender: Any) {
         
     // Play wav file
    var soundID: SystemSoundID = 0
-   let soundFile:String=Bundle.main.path(forResource:"r2-d2",ofType: "wav")!
+   let soundFile:String=Bundle.main.path(forResource:"siren",ofType: "wav")!
    let soundURL: NSURL = NSURL(fileURLWithPath: soundFile)
    AudioServicesCreateSystemSoundID(soundURL, &soundID)
    AudioServicesPlaySystemSound(soundID)
+   
+        
+        
         
     // Vibrate phone
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B71B01AA223AAE80003D3533 /* siren.wav in Resources */ = {isa = PBXBuildFile; fileRef = B71B01A9223AAE80003D3533 /* siren.wav */; };
-		B766165E23FA2A4E00DCAB1E /* r2-d2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B766165D23FA2A4E00DCAB1E /* r2-d2.wav */; };
 		B7B9033D2239F31600A7B390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9033C2239F31600A7B390 /* AppDelegate.swift */; };
 		B7B9033F2239F31600A7B390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9033E2239F31600A7B390 /* ViewController.swift */; };
 		B7B903422239F31600A7B390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B903402239F31600A7B390 /* Main.storyboard */; };
@@ -17,6 +16,8 @@
 		B7B903522239F31700A7B390 /* In_Class_AlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B903512239F31700A7B390 /* In_Class_AlertsTests.swift */; };
 		B7B9035D2239F31700A7B390 /* In_Class_AlertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9035C2239F31700A7B390 /* In_Class_AlertsUITests.swift */; };
 		B7B9036B223A022000A7B390 /* siren.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7B9036A223A022000A7B390 /* siren.wav */; };
+		B7D39E9924035A5A0014B594 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D39E9824035A5A0014B594 /* SecondViewController.swift */; };
+		B7E4C91B2404173B0065C615 /* DataCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4C91A2404173B0065C615 /* DataCollectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		B71B01A9223AAE80003D3533 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = siren.wav; path = ../../siren.wav; sourceTree = "<group>"; };
-		B766165D23FA2A4E00DCAB1E /* r2-d2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "r2-d2.wav"; sourceTree = "<group>"; };
 		B7B903392239F31600A7B390 /* In Class Alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "In Class Alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B9033C2239F31600A7B390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B9033E2239F31600A7B390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		B7B9035C2239F31700A7B390 /* In_Class_AlertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = In_Class_AlertsUITests.swift; sourceTree = "<group>"; };
 		B7B9035E2239F31700A7B390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B9036A223A022000A7B390 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = siren.wav; path = ../../siren.wav; sourceTree = "<group>"; };
+		B7D39E9824035A5A0014B594 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B7E4C91A2404173B0065C615 /* DataCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +90,6 @@
 				B7B9035B2239F31700A7B390 /* In Class AlertsUITests */,
 				B7B9033A2239F31600A7B390 /* Products */,
 				B7B9036A223A022000A7B390 /* siren.wav */,
-				B766165D23FA2A4E00DCAB1E /* r2-d2.wav */,
 				B71B01A9223AAE80003D3533 /* siren.wav */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +110,8 @@
 				B7B9033C2239F31600A7B390 /* AppDelegate.swift */,
 				B7B9033E2239F31600A7B390 /* ViewController.swift */,
 				B7B903402239F31600A7B390 /* Main.storyboard */,
+				B7E4C91A2404173B0065C615 /* DataCollectionVC.swift */,
+				B7D39E9824035A5A0014B594 /* SecondViewController.swift */,
 				B7B903432239F31700A7B390 /* Assets.xcassets */,
 				B7B903452239F31700A7B390 /* LaunchScreen.storyboard */,
 				B7B903482239F31700A7B390 /* Info.plist */,
@@ -240,7 +243,6 @@
 			files = (
 				B7B903472239F31700A7B390 /* LaunchScreen.storyboard in Resources */,
 				B7B903442239F31700A7B390 /* Assets.xcassets in Resources */,
-				B766165E23FA2A4E00DCAB1E /* r2-d2.wav in Resources */,
 				B7B9036B223A022000A7B390 /* siren.wav in Resources */,
 				B71B01AA223AAE80003D3533 /* siren.wav in Resources */,
 				B7B903422239F31600A7B390 /* Main.storyboard in Resources */,
@@ -268,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E4C91B2404173B0065C615 /* DataCollectionVC.swift in Sources */,
+				B7D39E9924035A5A0014B594 /* SecondViewController.swift in Sources */,
 				B7B9033F2239F31600A7B390 /* ViewController.swift in Sources */,
 				B7B9033D2239F31600A7B390 /* AppDelegate.swift in Sources */,
 			);

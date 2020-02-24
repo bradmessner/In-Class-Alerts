@@ -49,12 +49,12 @@
                                     <action selector="playMedia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n8D-p3-ici"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUq-bl-mdN">
-                                <rect key="frame" x="341" y="629" width="36" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTm-h0-vo6">
+                                <rect key="frame" x="264" y="643" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Shhh"/>
+                                <state key="normal" title="Take Me Away"/>
                                 <connections>
-                                    <segue destination="wnQ-UK-3Tm" kind="show" id="XGy-Zy-zQm"/>
+                                    <segue destination="fZe-oI-2lC" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="iuf-eR-T16"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -67,40 +67,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-1272" y="282"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Fm3-4c-ySb">
+        <!--Data CollectionVC-->
+        <scene sceneID="MVd-3e-DOn">
             <objects>
-                <viewController id="wnQ-UK-3Tm" customClass="ViewController" customModule="In_Class_Alerts" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wt2-dU-Cp1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                <viewController id="fZe-oI-2lC" customClass="DataCollectionVC" customModule="In_Class_Alerts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QFj-a5-1qF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPy-Z8-fhZ">
-                                <rect key="frame" x="144" y="154" width="130" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YA7-1y-eJq">
+                                <rect key="frame" x="150" y="84" width="115" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="46"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARN-s5-Hea">
-                                <rect key="frame" x="24" y="609" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zp-TJ-p0w">
+                                <rect key="frame" x="192" y="219" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bye!"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="hru-9R-jGH"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="vtz-7y-arX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-bs-pbm">
+                                <rect key="frame" x="219" y="425" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="alert2:" destination="fZe-oI-2lC" eventType="touchUpInside" id="ix4-l7-ajw"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="BN8-7g-eeL"/>
+                        <viewLayoutGuide key="safeArea" id="Eho-Gt-QKF"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rri-fF-DdT"/>
+                    <navigationItem key="navigationItem" id="idl-fv-Nwr"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CSL-SZ-zpK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vvw-Z9-ASY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1120" y="111"/>
+            <point key="canvasLocation" x="-320" y="281"/>
         </scene>
     </scenes>
 </document>
